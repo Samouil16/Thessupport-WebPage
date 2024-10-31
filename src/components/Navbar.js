@@ -17,7 +17,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <nav className="navbar">
           <div className="navbar-container container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link to="/Thessupport-WebPage" className="navbar-logo" onClick={closeMobileMenu}>
               <GiRocketThruster className="navbar-icon" />
               Thessupport
             </Link>
@@ -27,7 +27,7 @@ function Navbar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/Thessupport-WebPage"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
